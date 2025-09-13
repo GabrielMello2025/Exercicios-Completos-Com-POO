@@ -26,7 +26,7 @@ public class Program {
     funcionario.aumentoSalario(porcentagem);
 
     System.out.println();
-    System.out.println("Dados atualizados: " + funcionario);
+    System.out.println("Dados atualizados!: " + funcionario);
 
   ler.close(); 
 

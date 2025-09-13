@@ -10,13 +10,13 @@ public class Funcionario {
         return salarioBruto - taxa;
     }
     public void aumentoSalario(double porcentagem) {
-       salarioBruto = ((salarioBruto * porcentagem)/ 100) + salarioLiquido() ; 
+       salarioBruto += salarioBruto * porcentagem /100 ; 
     }
     public String toString() {
 return nome 
         + ", "
         + "$ "
-        + String.format("%.2f" , salarioBruto);
+        + String.format("%.2f" , salarioLiquido());
     }
 
 
